@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head >
+    <head>
         <meta charset="utf-8">
         <title >My Profolio</title>
         <link rel="shortcut icon" type="img/png" href="img/logo.png">
@@ -32,6 +32,7 @@
 		 		</ul>
 		 	</nav>
 		</header>
+  <main class="contact-info">     
     <div>
         <h1>Contact</h1>
         <p>Edmund Wang <br>
@@ -44,25 +45,27 @@
             <a href="mailto:chao8695@yahoo.com">chao8695@yahoo.com</a><br>
         </nav>
     </div>
-    <div>
+    <div class="contact-method">
         <form action="" method="post">
             <label class="standard-label" for="contact-email">E-Mail:</label>
-            <input type="email" id="contact-email" required="required">
+            <input type="email" id="contact-email" required="required"><br>
 
             <label class="standard-label" for="contact-Telephone">Telephone:</label>
-            <input type="tel" id="contact-Telephone" name="">
+            <input type="tel" id="contact-Telephone" name=""><br>
 
             <label for="my-input" class="standard-label">Message:</label>
-            <textarea maxlength="240" required id="my-input"></textarea>
+            <textarea maxlength="240" required id="my-input"></textarea><br>
 
-            <button type="submit">Send Message</button>
+            <button type="submit">Send Message</button><br>
         </form>
     </div>
+   </main> 
     </form>
-    <footer>
+    <footer class="page-footer">
         <p>Find me on</p>
+        <div class="social-media">
         <a target="github" href="https://github.com/">
-            <img src="img/github.svg" alt="Github">
+                <img src="img/github.svg" alt="Github">
         </a>
         <a target="twitter" href="https://twitter.com">
             <img src="img/twitter.svg" alt="Twitter">
@@ -70,9 +73,8 @@
         <a target="linkedin" href="https://www.linkedin.com">
             <img src="img/linkedin.svg" alt="LinkedIn">
         </a>
-
+        </div>  
     </footer>
-    <script src="js/tota11y.min.js"></script>
+<script src="js/tota11y.min.js" ></script>
 </body>
-
 </html>

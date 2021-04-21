@@ -115,7 +115,11 @@ opacity: 0.8;
 	max-width: 700px;
 	margin: 0 auto;
 }
-
+.contact-info{
+	text-align: center;
+	margin: 0 auto;
+	max-width: 700px;
+}
 *{
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
