@@ -12,10 +12,6 @@ Text Color (Dark Gray): #2b2b2b;
 Primary Color (Purple): #F5F5F5;
 Secondary Color (Orange): #e0b354;
  */
-:root {
-	/*font-weight*/
-	/*font-size*/
-}
 a{ 
 color: #357b70 
 }
@@ -69,7 +65,7 @@ button {
 	-webkit-transition-duration: 0.3s;
 	     -o-transition-duration: 0.3s;
 	        transition-duration: 0.3s;
-	transform-property: opacity;
+	transition-property: opacity;
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
@@ -87,7 +83,7 @@ button {
 	-webkit-transition-duration: 0.3s;
 	     -o-transition-duration: 0.3s;
 	        transition-duration: 0.3s;
-	transform-property: opacity;
+	transition-property: opacity;
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
